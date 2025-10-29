@@ -1,15 +1,13 @@
-import React, { useMemo, useState } from "react";
-import ReactMarkdown from "react-markdown";
-import { motion, AnimatePresence } from "framer-motion";
 
-const sampleLessons = [
-  { id: "l1", title: "היכרות עם מערכת הנכסים", category: "התחלה", duration: "08:32", type: "video",
-    videoUrl: "https://www.w3schools.com/html/mov_bbb.mp4",
-    content: "# היכרות\nבוידאו זה נדבר על הרכיבים העיקריים של המערכת.",
-    resources: [{ name: "מדריך מהיר (PDF)", url: "/resources/quickstart.pdf" }]
-  }
-];
-
-export default function TrainingApp() {
-  return <div>שלום זה אתר ההדרכות לדוגמה</div>;
-}
+<!DOCTYPE html>
+<html lang="he">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>אתר הדרכות</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
